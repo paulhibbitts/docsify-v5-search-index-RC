@@ -1,0 +1,9 @@
+{
+  "name": "docsify-demo",
+  "version": "1.0.0",
+  "description": "Simple Parcel Sandbox",
+  "dependencies": {
+    "docsify": "^5.0.0-rc.3",
+    "serve": "^14"
+  }
+}

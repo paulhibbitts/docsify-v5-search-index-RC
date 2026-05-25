@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/themes/core.min.css" />
+    <!--<link rel="stylesheet" href="./node_modules/docsify/dist/themes/core.min.css" />-->
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        loadSidebar: true,
+        search: {
+          maxAge: 1, // for easy bug reproduction in this sandbox
+          paths: "auto",
+        },
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/docsify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/plugins/search.js"></script>
+  </body>
+</html>
