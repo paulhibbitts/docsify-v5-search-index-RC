@@ -11,3 +11,6 @@ Expected behavior: Docsify should find some results in the "lorem.md" file
 
 Actual behavior: no results
 
+Embed content test below:
+
+[filename](./embed.md ':include')
